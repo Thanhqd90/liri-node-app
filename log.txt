@@ -399,3 +399,160 @@ URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b
 =============================
 
 == Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 16:41:48 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,do-what-it-says
+
+========= Result 1 =========
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Album name: The Hits--Chapter One
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+--OMDB Log Entry Start--
+Processed on:
+Sun Oct 21 2018 17:07:51 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,movie-this,Mean,Girls
+
+Movie Title: Mean Girls
+Year: 2004
+IMDB rating: 7.0
+Rotten Tomatoes Rating: 83%
+Country: USA, Canada
+Language: English, German, Vietnamese, Swahili
+Plot: Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.
+Actors: Lindsay Lohan, Rachel McAdams, Tina Fey, Tim Meadows
+--OMDB Log Entry End--
+
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 17:09:26 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Lady,Gaga
+
+
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 17:10:33 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Lady,Gaga
+
+
+--OMDB Log Entry Start--
+Processed on:
+Sun Oct 21 2018 17:10:36 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,movie-this,Mean,Girls
+
+Movie Title: Mean Girls
+Year: 2004
+IMDB rating: 7.0
+Rotten Tomatoes Rating: 83%
+Country: USA, Canada
+Language: English, German, Vietnamese, Swahili
+Plot: Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.
+Actors: Lindsay Lohan, Rachel McAdams, Tina Fey, Tim Meadows
+--OMDB Log Entry End--
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:10:42 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,do-what-it-says
+
+========= Result 1 =========
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Album name: The Hits--Chapter One
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:12:44 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,do-what-it-says
+
+== Spotify Log Entry End ==
+
+========= Result 1 =========
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Album name: The Hits--Chapter One
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 17:20:09 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Cher
+
+
+Artist Name: Cher 
+Venue Name: Monte Carlo Hotel And Casino
+Venue Location: Las Vegas, NV
+Date of Event: Wednesday, October 31st 2018 at 8:00 PM
+**Concert Log Entry End**
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 17:21:04 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Cher
+
+Artist Name: Cher 
+Venue Name: Monte Carlo Hotel And Casino
+Venue Location: Las Vegas, NV
+Date of Event: Wednesday, October 31st 2018 at 8:00 PM
+**Concert Log Entry End**
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 17:22:26 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Cher
+
+Artist Name: Cher 
+Venue Name: Monte Carlo Hotel And Casino
+Venue Location: Las Vegas, NV
+Date of Event: Wednesday, October 31st 2018 at 8:00 PM
+**Concert Log Entry End**
+
+--OMDB Log Entry Start--
+Processed on:
+Sun Oct 21 2018 17:22:31 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,movie-this,Mean,Girls
+
+Movie Title: Mean Girls
+Year: 2004
+IMDB rating: 7.0
+Rotten Tomatoes Rating: 83%
+Country: USA, Canada
+Language: English, German, Vietnamese, Swahili
+Plot: Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.
+Actors: Lindsay Lohan, Rachel McAdams, Tina Fey, Tim Meadows
+--OMDB Log Entry End--
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:22:35 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,do-what-it-says
+
+========= Result 1 =========
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Album name: The Hits--Chapter One
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==

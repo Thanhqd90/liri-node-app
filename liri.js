@@ -17,15 +17,7 @@ for (var i = 3; i < process.argv.length; i++) {
     searchValue += process.argv[i] + " ";
 };
 
-// Error Functions 
-function errorFunction(err) {
-    if (err) {
-        return console.log("Error occured: ", err);
-    }
-};
-
-// Main switch case based on search term passed
-
+// Switch case based on search term passed
 switch (command) {
     case "spotify-this-song":
         searchSong(searchValue);
@@ -39,7 +31,7 @@ switch (command) {
     case "do-what-it-says":
         randomSearch();
         break;
-    default:
+    default: // If no value is passed after node liri.js display the following information on the terminal
         console.log("\nYou entered " + `"${command}"`.bold.red + " which is not a valid command. Please try one of the following commands\n");
         console.log("1. For a random search:".bold.magenta + " node liri.js do-what-it-says\n".bold.yellow);
         console.log("2. To search a movie title:".bold.magenta + " node liri.js movie-this *movie title*\n".bold.yellow + "Example: node liri.js movie-this The Devil Wears Prada\n".bold.blue);
@@ -56,8 +48,9 @@ function searchSong(searchValue) {
     }
 
     // Access Spotify keys  
-    var spotify = new Spotify(keys.spotify);
+    let spotify = new Spotify(keys.spotify);
 
+    // Reset number of songs return to empty value
     var searchLimit = "";
 
     // Allows the user to input the number of returned spotify results.  Defaults to 1 is no number is input
@@ -73,6 +66,7 @@ function searchSong(searchValue) {
         };
 
     } else {
+        // Lets user know they have the option return more than 1 song by showing an example on the terminal
         console.log("\nFor more than 1 result, add the number of results you would like to be returned after spotify-this-song.".bold.blue + "\nExample: node.js spotify-this-song 4 Fake Love".bold.grey)
         searchLimit = 1;
     }
@@ -84,11 +78,13 @@ function searchSong(searchValue) {
         limit: searchLimit
     }, function (err, response) {
 
+        // Start spotify log.txt
         fs.appendFile("log.txt", "\r\n== Spotify Log Entry Start ==\r\nProcessed on:\n" + Date() + "\r\n" + "Terminal commands:\n" + process.argv + "\r\n");
 
         let songResp = response.tracks.items;
 
         for (var i = 0; i < songResp.length; i++) {
+            //Display results to terminal
             console.log("\n=============== ".bold.red + `Spotify Search Result ${(i + 1)}`.bold.yellow + " ===============\n".bold.red);
             console.log(("Artist: ".bold.magenta + songResp[i].artists[0].name));
             console.log(("Song title: ".bold.magenta + songResp[i].name));
@@ -96,39 +92,44 @@ function searchSong(searchValue) {
             console.log(("Preview link: ".bold.magenta + songResp[i].preview_url));
             console.log("\n=============== ".bold.red + `End of Search Result ${(i + 1)}`.bold.yellow + " ===============\n".bold.red);
 
-            fs.appendFile("log.txt", "\r\n========= Result " + (i + 1) + " =========\r\nArtist: " + songResp[i].artists[0].name + "\r\nSong title: " + songResp[i].name + "\r\nAlbum name: " + songResp[i].album.name + "\r\nURL Preview: " + songResp[i].preview_url + "\r\n=============================\n");
+        //  Append search information to log.txt
+            fs.appendFile("log.txt", "\r\n========= Result " + (i + 1) + " =========\r\nArtist: " + songResp[i].artists[0].name + "\r\nSong title: " + songResp[i].name + "\r\nAlbum name: " + songResp[i].album.name + "\r\nURL Preview: " + songResp[i].preview_url + "\r\n=============================\r\n");
         }
 
+        // End spotify log.txt
         fs.appendFile("log.txt", "\r\n== Spotify Log Entry End ==\n");
     })
 };
 
 // movie-this search function
 function searchMovie(searchValue) {
+    let omdb = keys.omdb;
 
     // Default search value if no movie is given
     if (searchValue == "") {
         searchValue = "Mr. Nobody";
     }
 
-    var queryUrl = "http://www.omdbapi.com/?t=" + searchValue.trim() + "&y=&plot=short&apikey=trilogy";
+    var queryUrl = "http://www.omdbapi.com/?t=" + searchValue.trim() + "&y=&plot=short&apikey=" + omdb;
 
     request(queryUrl, function (err, response, body) {
 
+        // Start OMDB log.txt
         fs.appendFile("log.txt", "\r\n--OMDB Log Entry Start--\r\nProcessed on:\n" + Date() + "\r\n" + "Terminal commands:\n" + process.argv + "\r\n");
-
-        ;
 
         if (JSON.parse(body).Error == 'Movie not found!') {
 
+            //Display no results to terminal
             console.log("\nNo results found for " + searchValue + ". Please search for another title.\n")
 
-            fs.appendFile("log.txt", "No results found for " + searchValue + ". Please search for another title.\n\n--OMDB Log Entry End---\n\n");
+            //Append no results to log.txt
+            fs.appendFile("log.txt", "No results found for " + searchValue + ". Please search for another title.\n\n--OMDB Log Entry End---\r\n");
 
         } else {
 
             let movieBody = JSON.parse(body);
 
+            //Display first half of movie information to terminal
             console.log("\n========== ".bold.red + "OMDB Search Results ".bold.yellow + " ==========\n".bold.red);
             console.log("Movie Title: ".bold.blue + movieBody.Title);
             console.log("Year: ".bold.blue + movieBody.Year);
@@ -137,18 +138,21 @@ function searchMovie(searchValue) {
 
             // If there is no Rotten Tomatoes Rating
             if (movieBody.Ratings.length < 2) {
-
+                //Display no Rotten Tomatoes ratings to terminal
                 console.log("There is no Rotten Tomatoes Rating for this movie.")
 
-                fs.appendFile("log.txt", "\r\nMovie Title: " + movieBody.Title + "\r\nYear: " + movieBody.Year + "\r\nIMDB rating: " + movieBody.imdbRating + "\r\nRotten Tomatoes Rating: There is no Rotten Tomatoes Rating for this movie" + movieBody.Ratings[[1]].Value + "\r\nCountry: " + movieBody.Country + "\r\nLanguage: " + movieBody.Language + "\r\nPlot: " + movieBody.Plot + "\r\nActors: " + movieBody.Actors + "\r\n--OMDB Log Entry End--\n");
+                // Append information without Rotten Tomatoes rating to log.txt
+                fs.appendFile("log.txt", "\r\nMovie Title: " + movieBody.Title + "\r\nYear: " + movieBody.Year + "\r\nIMDB rating: " + movieBody.imdbRating + "\r\nRotten Tomatoes Rating: There is no Rotten Tomatoes Rating for this movie" + movieBody.Ratings[[1]].Value + "\r\nCountry: " + movieBody.Country + "\r\nLanguage: " + movieBody.Language + "\r\nPlot: " + movieBody.Plot + "\r\nActors: " + movieBody.Actors + "\r\n--OMDB Log Entry End--\r\n");
 
             } else {
-
+                //Display Rotten Tomatoes rating to terminal
                 console.log("Rotten Tomatoes Rating: ".bold.blue + movieBody.Ratings[[1]].Value);
 
-                fs.appendFile("log.txt", "\r\nMovie Title: " + movieBody.Title + "\r\nYear: " + movieBody.Year + "\r\nIMDB rating: " + movieBody.imdbRating + "\r\nRotten Tomatoes Rating: " + movieBody.Ratings[[1]].Value + "\r\nCountry: " + movieBody.Country + "\r\nLanguage: " + movieBody.Language + "\r\nPlot: " + movieBody.Plot + "\r\nActors: " + movieBody.Actors + "\r\n--OMDB Log Entry End--\n");
+                // Append all returned information log.txt
+                fs.appendFile("log.txt", "\r\nMovie Title: " + movieBody.Title + "\r\nYear: " + movieBody.Year + "\r\nIMDB rating: " + movieBody.imdbRating + "\r\nRotten Tomatoes Rating: " + movieBody.Ratings[[1]].Value + "\r\nCountry: " + movieBody.Country + "\r\nLanguage: " + movieBody.Language + "\r\nPlot: " + movieBody.Plot + "\r\nActors: " + movieBody.Actors + "\r\n--OMDB Log Entry End--\r\n");
             }
 
+            //Display Display the rest of the movie information to terminal
             console.log("Country: ".bold.blue + movieBody.Country);
             console.log("Language: ".bold.blue + movieBody.Language);
             console.log("Plot: ".bold.blue + movieBody.Plot);
@@ -162,29 +166,35 @@ function searchMovie(searchValue) {
 
 // concert-this function
 function searchConcert(searchValue) {
+    let bands = keys.bands;
 
     // Default search value if no movie is given
     if (searchValue == "") {
         searchValue = "Lady Gaga";
     }
 
-    let queryUrl = "https://rest.bandsintown.com/artists/" + searchValue.trim() + "/events?app_id=codingbootcamp&date=upcoming";
+    let queryUrl = "https://rest.bandsintown.com/artists/" + searchValue.trim() + "/events?app_id=" + bands + "&date=upcoming";
 
     request(queryUrl, function (err, response, body) {
 
-        fs.appendFile("log.txt", "\r\n**Concert Log Entry Start** \r\nProcessed on: \n" + Date() + "\r\n" + "Terminal commands:\n" + process.argv + "\n\n");
+        //Start Bands in Town log.txt
+        fs.appendFile("log.txt", "\r\n**Concert Log Entry Start** \r\nProcessed on: \n" + Date() + "\r\n" + "Terminal commands:\n" + process.argv + "\r\n");
 
+        //No results found
         if (JSON.parse(body).Error == "No upcoming concerts for " + searchValue) {
 
-            console.log("\nNo results found for " + searchValue + ". Please try another artist.\n")
+            //Display no results to terminal
+            console.log("\nNo results found for " + searchValue + ". Please try another artist.\r\n")
 
-            fs.appendFile("log.txt", "No results found for " + searchValue + ". Please try another artist.\r\n**Concert Log Entry End**");
+            //Append no results to log.txt
+            fs.appendFile("log.txt", "No results found for " + searchValue + ". Please try another artist.\r\n**Concert Log Entry End**\r\n");
 
         } else {
 
             let concertBody = JSON.parse(body);
             let dateFormat = 'dddd, MMMM Do YYYY [at] h:mm A'; // date displayed in the format of Thursday, April 12th 2018 at 6:29 PM
 
+            //Display Concert information to terminal
             console.log("\n========== ".bold.red + "Bands in Town Search Results ".bold.yellow + " ==========\n".bold.red);
             console.log("Artist Name: ".bold.green + searchValue);
             console.log("Venue Name: ".bold.green + concertBody[0].venue.name);
@@ -192,6 +202,8 @@ function searchConcert(searchValue) {
             console.log("Date of Event: ".bold.green + moment(concertBody[0].datetime).format(dateFormat));
             console.log("\n========== ".bold.red + "End of Search Results ".bold.yellow + " ==========\n".bold.red);
 
+            //Append returned results to log.txt
+            fs.appendFile("log.txt", "\r\nArtist Name: " + searchValue + "\r\nVenue Name: " + concertBody[0].venue.name + "\r\nVenue Location: " + concertBody[0].venue.city + ", " + concertBody[0].venue.region + "\r\nDate of Event: " + moment(concertBody[0].datetime).format(dateFormat) + "\r\n**Concert Log Entry End**\r\n");
 
         };
     });
@@ -200,10 +212,13 @@ function searchConcert(searchValue) {
 // do-what-it-says function
 function randomSearch() {
 
-    fs.readFile("random.txt", "utf8", function (respError, data) {
+    //Read random.txt file
+    fs.readFile("random.txt", "utf8", function (err, data) {
 
-        var randomArray = data.split(",");
+    //Split text into an array after comma
+    var randomArray = data.split(",");
 
+    //Initiate liri.js based on what the text at index 0 says with index 1 as the search parameter
         if (randomArray[0] == "spotify-this-song") {
             searchSong(randomArray[1]);
         } else if (randomArray[0] == "movie-this") {
