@@ -556,3 +556,730 @@ URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b
 =============================
 
 == Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:28:28 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,do-what-it-says
+
+========= Result 1 =========
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Album name: The Hits--Chapter One
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:31:11 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,3,Fake,Love
+
+========= Result 1 =========
+Artist: Drake
+Song title: Fake Love
+Album name: More Life
+URL Preview: null
+=============================
+
+========= Result 2 =========
+Artist: BTS
+Song title: FAKE LOVE
+Album name: Love Yourself 轉 'Tear'
+URL Preview: https://p.scdn.co/mp3-preview/bc24526c6a5e4d2a63bdbf364705a6012ff2d649?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: BTS
+Song title: FAKE LOVE
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/bc24526c6a5e4d2a63bdbf364705a6012ff2d649?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:31:21 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,4,Just,Dance
+
+========= Result 1 =========
+Artist: BTS
+Song title: Trivia 起 : Just Dance
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/4080073d1552927bbf37d5feb461a1533b72b503?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: Josh Turner
+Song title: Why Don't We Just Dance
+Album name: Haywire
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+========= Result 2 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame
+URL Preview: null
+=============================
+
+========= Result 4 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame Monster (Deluxe)
+URL Preview: null
+=============================
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:31:32 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,3,Just,Dance
+
+========= Result 1 =========
+Artist: BTS
+Song title: Trivia 起 : Just Dance
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/4080073d1552927bbf37d5feb461a1533b72b503?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: Josh Turner
+Song title: Why Don't We Just Dance
+Album name: Haywire
+URL Preview: null
+=============================
+
+========= Result 2 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:31:41 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,8,Hello
+
+========= Result 1 =========
+Artist: Adele
+Song title: Hello
+Album name: 25
+URL Preview: https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 2 =========
+Artist: Noah Schnacky
+Song title: Hello Beautiful
+Album name: Hello Beautiful
+URL Preview: https://p.scdn.co/mp3-preview/10a58d5841ccfb4e12cb4651b0b7b7c65b5dfe86?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 4 =========
+Artist: Clairo
+Song title: Hello?
+Album name: diary 001
+URL Preview: null
+=============================
+
+========= Result 3 =========
+Artist: Adele
+Song title: Hello
+Album name: Hello
+URL Preview: https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 7 =========
+Artist: Lionel Richie
+Song title: Hello
+Album name: Can't Slow Down
+URL Preview: null
+=============================
+
+========= Result 5 =========
+Artist: The Oh Hellos
+Song title: Hello My Old Heart
+Album name: The Oh Hellos EP
+URL Preview: https://p.scdn.co/mp3-preview/910ebbbe98672c77cfb41873799ddb95db363ab6?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 6 =========
+Artist: J. Cole
+Song title: Hello
+Album name: 2014 Forest Hills Drive
+URL Preview: https://p.scdn.co/mp3-preview/4b3df43120daf5eea2b2a21502fe2b359ec17d4f?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 8 =========
+Artist: Phil Collins
+Song title: You Can't Hurry Love - 2016 Remastered
+Album name: Hello, I Must Be Going! (Deluxe Edition)
+URL Preview: https://p.scdn.co/mp3-preview/cddedd4dd7339f938daad2355c166f0816ee9271?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 17:50:47 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Drake
+
+Artist Name: Drake 
+Venue Name: Oracle Arena
+Venue Location: Oakland, CA
+Date of Event: Friday, October 26th 2018 at 7:00 PM
+**Concert Log Entry End**
+
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 17:50:54 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Drake
+
+Artist Name: Drake 
+Venue Name: Oracle Arena
+Venue Location: Oakland, CA
+Date of Event: Friday, October 26th 2018 at 7:00 PM
+**Concert Log Entry End**
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:56:52 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,Girls,Wanna,Have,Fun
+
+========= Result 1 =========
+Artist: The Mayries
+Song title: Girls Just Wanna Have Fun - Acoustic
+Album name: Girls Just Wanna Have Fun
+URL Preview: https://p.scdn.co/mp3-preview/a897c3c025a31a1adf8ce070adcbae785910c090?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:57:36 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,Misguided,Ghosts
+
+========= Result 1 =========
+Artist: Paramore
+Song title: Misguided Ghosts
+Album name: brand new eyes
+URL Preview: https://p.scdn.co/mp3-preview/45d0a889ab5477e4f2d45af787a569a1df7bf471?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 17:59:42 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,Misguided,Ghosts
+
+========= Result 1 =========
+Artist: Paramore
+Song title: Misguided Ghosts
+Album name: brand new eyes
+URL Preview: https://p.scdn.co/mp3-preview/45d0a889ab5477e4f2d45af787a569a1df7bf471?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:00:38 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,3,Fake,Love
+
+========= Result 2 =========
+Artist: BTS
+Song title: FAKE LOVE
+Album name: Love Yourself 轉 'Tear'
+URL Preview: https://p.scdn.co/mp3-preview/bc24526c6a5e4d2a63bdbf364705a6012ff2d649?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 1 =========
+Artist: Drake
+Song title: Fake Love
+Album name: More Life
+URL Preview: null
+=============================
+
+========= Result 3 =========
+Artist: BTS
+Song title: FAKE LOVE
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/bc24526c6a5e4d2a63bdbf364705a6012ff2d649?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:00:48 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,3,Just,Dance
+
+========= Result 1 =========
+Artist: BTS
+Song title: Trivia 起 : Just Dance
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/4080073d1552927bbf37d5feb461a1533b72b503?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: Josh Turner
+Song title: Why Don't We Just Dance
+Album name: Haywire
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+========= Result 2 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame
+URL Preview: null
+=============================
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:00:55 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,3,Lucky
+
+========= Result 2 =========
+Artist: Jason Mraz
+Song title: Lucky
+Album name: We Sing. We Dance. We Steal Things.
+URL Preview: https://p.scdn.co/mp3-preview/6d11c0ffe71a18048e675c42c184efad8742f9fc?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: Troye Sivan
+Song title: Lucky Strike
+Album name: Bloom
+URL Preview: null
+=============================
+
+========= Result 1 =========
+Artist: Eminem
+Song title: Lucky You (feat. Joyner Lucas)
+Album name: Kamikaze
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:01:08 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,4,Fly
+
+========= Result 2 =========
+Artist: Marshmello
+Song title: Fly
+Album name: Fly
+URL Preview: https://p.scdn.co/mp3-preview/b6f71d7c9b615ca231ec4dfaaf75aff5b2e86d43?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: Frank Sinatra
+Song title: Fly Me To The Moon
+Album name: Sinatra/Basie: The Complete Reprise Studio Recordings
+URL Preview: null
+=============================
+
+========= Result 4 =========
+Artist: Foo Fighters
+Song title: Learn to Fly
+Album name: There Is Nothing Left To Lose
+URL Preview: https://p.scdn.co/mp3-preview/a03a546e8dfee4c84098a52d3c3f2b4ca524ae59?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 1 =========
+Artist: Lil Wayne
+Song title: Let It Fly (feat. Travis Scott)
+Album name: Tha Carter V
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:01:27 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,5,Fake,Love
+
+========= Result 1 =========
+Artist: Drake
+Song title: Fake Love
+Album name: More Life
+URL Preview: null
+=============================
+
+========= Result 2 =========
+Artist: BTS
+Song title: FAKE LOVE
+Album name: Love Yourself 轉 'Tear'
+URL Preview: https://p.scdn.co/mp3-preview/bc24526c6a5e4d2a63bdbf364705a6012ff2d649?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: BTS
+Song title: FAKE LOVE
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/bc24526c6a5e4d2a63bdbf364705a6012ff2d649?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 4 =========
+Artist: BTS
+Song title: FAKE LOVE (Rocking Vibe Mix)
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/7ff34303a4d1df5f85b532ca4611a720271ab4d4?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 5 =========
+Artist: BTS
+Song title: FAKE LOVE (Rocking Vibe Mix)
+Album name: FAKE LOVE (Rocking Vibe Mix)
+URL Preview: https://p.scdn.co/mp3-preview/7ff34303a4d1df5f85b532ca4611a720271ab4d4?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:01:35 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,5,Look
+
+========= Result 1 =========
+Artist: BlocBoy JB
+Song title: Look Alive (feat. Drake)
+Album name: Look Alive (feat. Drake)
+URL Preview: https://p.scdn.co/mp3-preview/4c9c1f93e4b6032679d772a0a8c3c28cef5a42ae?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 3 =========
+Artist: XXXTENTACION
+Song title: Look At Me!
+Album name: Revenge
+URL Preview: https://p.scdn.co/mp3-preview/b1aec4586cd200a817ed4d28baaaa2b3aa483e26?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 2 =========
+Artist: XXXTENTACION
+Song title: Look At Me!
+Album name: Look At Me!
+URL Preview: https://p.scdn.co/mp3-preview/b1aec4586cd200a817ed4d28baaaa2b3aa483e26?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 5 =========
+Artist: Taylor Swift
+Song title: Look What You Made Me Do
+Album name: reputation
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+========= Result 4 =========
+Artist: Lauren Daigle
+Song title: You Say
+Album name: Look Up Child
+URL Preview: null
+=============================
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:01:57 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,4,Dance
+
+========= Result 2 =========
+Artist: WALK THE MOON
+Song title: Shut Up and Dance
+Album name: TALKING IS HARD
+URL Preview: https://p.scdn.co/mp3-preview/50171ad2206e8f6b2ecad2266d353472427c358e?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 1 =========
+Artist: Drake
+Song title: One Dance
+Album name: Views
+URL Preview: null
+=============================
+
+========= Result 3 =========
+Artist: Fall Out Boy
+Song title: Dance, Dance
+Album name: From Under The Cork Tree
+URL Preview: null
+=============================
+
+========= Result 4 =========
+Artist: Jon Pardi
+Song title: Heartache On The Dance Floor
+Album name: California Sunrise
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:02:17 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,4,Just,Dance
+
+========= Result 3 =========
+Artist: Josh Turner
+Song title: Why Don't We Just Dance
+Album name: Haywire
+URL Preview: null
+=============================
+
+========= Result 1 =========
+Artist: BTS
+Song title: Trivia 起 : Just Dance
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/4080073d1552927bbf37d5feb461a1533b72b503?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 2 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+========= Result 4 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame Monster (Deluxe)
+URL Preview: null
+=============================
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:02:27 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,3,Just,Dance
+
+========= Result 1 =========
+Artist: BTS
+Song title: Trivia 起 : Just Dance
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/4080073d1552927bbf37d5feb461a1533b72b503?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 2 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame
+URL Preview: null
+=============================
+
+========= Result 3 =========
+Artist: Josh Turner
+Song title: Why Don't We Just Dance
+Album name: Haywire
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:04:29 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,crushcrushcrush
+
+========= Result 1 =========
+Artist: Paramore
+Song title: crushcrushcrush
+Album name: RIOT!
+URL Preview: https://p.scdn.co/mp3-preview/01187268dfa60b63f52a64dcad65b5e2f23abab7?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:05:35 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song
+
+========= Result 1 =========
+Artist: Ace of Base
+Song title: The Sign
+Album name: The Sign (US Album) [Remastered]
+URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:11:00 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song
+
+== Spotify Log Entry End ==
+
+========= Result 1 =========
+Artist: Ace of Base
+Song title: The Sign
+Album name: The Sign (US Album) [Remastered]
+URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:13:48 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,crushcrushcrush
+
+== Spotify Log Entry End ==
+
+========= Result 1 =========
+Artist: Paramore
+Song title: crushcrushcrush
+Album name: RIOT!
+URL Preview: https://p.scdn.co/mp3-preview/01187268dfa60b63f52a64dcad65b5e2f23abab7?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:14:37 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song,3,Just,Dance
+
+========= Result 1 =========
+Artist: BTS
+Song title: Trivia 起 : Just Dance
+Album name: Love Yourself 結 'Answer'
+URL Preview: https://p.scdn.co/mp3-preview/4080073d1552927bbf37d5feb461a1533b72b503?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+========= Result 2 =========
+Artist: Lady Gaga
+Song title: Just Dance
+Album name: The Fame
+URL Preview: null
+=============================
+
+========= Result 3 =========
+Artist: Josh Turner
+Song title: Why Don't We Just Dance
+Album name: Haywire
+URL Preview: null
+=============================
+
+== Spotify Log Entry End ==
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:15:00 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,spotify-this-song
+
+== Spotify Log Entry End ==
+
+========= Result 1 =========
+Artist: Ace of Base
+Song title: The Sign
+Album name: The Sign (US Album) [Remastered]
+URL Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+--OMDB Log Entry Start--
+Processed on:
+Sun Oct 21 2018 18:15:20 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,movie-this,Mean,Girls
+
+Movie Title: Mean Girls
+Year: 2004
+IMDB rating: 7.0
+Rotten Tomatoes Rating: 83%
+Country: USA, Canada
+Language: English, German, Vietnamese, Swahili
+Plot: Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.
+Actors: Lindsay Lohan, Rachel McAdams, Tina Fey, Tim Meadows
+--OMDB Log Entry End--
+
+--OMDB Log Entry Start--
+Processed on:
+Sun Oct 21 2018 18:15:38 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,movie-this
+
+Movie Title: Mr. Nobody
+Year: 2009
+IMDB rating: 7.9
+Rotten Tomatoes Rating: 67%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+--OMDB Log Entry End--
+
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 18:15:59 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this,Drake
+
+Artist Name: Drake 
+Venue Name: Oracle Arena
+Venue Location: Oakland, CA
+Date of Event: Friday, October 26th 2018 at 7:00 PM
+**Concert Log Entry End**
+
+**Concert Log Entry Start** 
+Processed on: 
+Sun Oct 21 2018 18:16:11 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,concert-this
+
+Artist Name: Lady Gaga
+Venue Name: LADY GAGA ENIGMA
+Venue Location: Las Vegas, NV
+Date of Event: Friday, December 28th 2018 at 8:00 PM
+**Concert Log Entry End**
+
+== Spotify Log Entry Start ==
+Processed on:
+Sun Oct 21 2018 18:16:47 GMT-0500 (Central Daylight Time)
+Terminal commands:
+C:\Program Files\nodejs\node.exe,C:\Users\Thanh\Documents\liri-node-app\liri.js,do-what-it-says
+
+========= Result 1 =========
+Artist: Backstreet Boys
+Song title: I Want It That Way
+Album name: The Hits--Chapter One
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=0f2c3e132bd34757a9cb1e097d960731
+=============================
+
+== Spotify Log Entry End ==
